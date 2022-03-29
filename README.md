@@ -9,7 +9,7 @@
 - **criando os primeiros arquivo**
 - **Salvando arquivo**
 - **Realizando um teste**
-- **Inserir tags de elementos estruturais** -**p ->paragrafo** -**IMG ->imagem** -**Div ->divisão** -**Section ->seleção** -**Aplicar estilo CSS** -**O que é o estilo CSS** -**Como aplicar** -**CSS Extrno** -**CSS Local** -**CSS inline**
+- **Inserir tags de elementos estruturais** -**p ->paragrafo** - **IMG ->imagem** -**Div ->divisão** -**Section ->seleção** -**Aplicar estilo CSS** -**O que é o estilo CSS** -**Como aplicar** -**CSS Extrno** -**CSS Local** -**CSS inline**
 
       ---
 
@@ -26,9 +26,13 @@ HTML-> Hyper Text Markup Language(linguage de marcção de hiper texto)
 Estrutura basica de uma pagina html
 
 ```html
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
   <head>
-    <title>Teste</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Documentos</title>
   </head>
   <body></body>
 </html>
