@@ -73,12 +73,10 @@ footer {
   align-items: center;
   justify-content: center;
 }
-
 footer div {
   width: 20%;
   margin: 20px;
 }
-
 #redes ul li {
   display: inline;
   margin-left: 20px;
@@ -86,4 +84,38 @@ footer div {
 #redes ul li a img {
   width: 40px;
   height: 40px;
+}
+/*--------------Inicio do css home ---------------*/
+h2 {
+  font-family: Arial;
+  font-size: 20pt;
+  margin: 50px;
+  /*borda na parte inferior do h2*/
+  border-bottom: 1px solid rgb(228, 179, 179);
+}
+#home {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: verdana;
+  font-size: 12pt;
+  line-height: 20pt; /* espaçamento entre linhas*/
+  text-align: justify;
+}
+#imgHome {
+  text-align: center;
+}
+#imgHome img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 100px;
+  opacity: 0.7;
+  transition: ease 0.5;
+  /*mudar o ponteiro do mouse para uma mão*/
+  cursor: pointer;
+}
+#imgHome img:hover {
+  transform: scale(1.2);
+  opacity: 1;
 }
