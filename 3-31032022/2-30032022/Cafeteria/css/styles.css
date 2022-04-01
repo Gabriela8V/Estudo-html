@@ -181,3 +181,43 @@ h3 {
   margin: 10px;
   font-weight: 10px;
 }
+
+/* ------------------------------------------------------------Formatação CSS para a página contato----------------------------------------------------------------------------------*/
+main form {
+  width: 40%;
+  padding: 10px;
+  background-color: darkgray;
+  margin-left: auto;
+  margin-right: auto;
+}
+main form input[type="text"],
+main form input[type="email"],
+main form input[type="tel"],
+main form select,
+main form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 0px;
+  border-bottom: 1px solid silver;
+  border-radius: 5px;
+  display: block;
+}
+main form input[type="tel"],
+main form input select {
+  width: 30%;
+}
+main form textarea {
+  height: 300px;
+  border: 10px cornflowerblue;
+  margin-bottom: 10px;
+}
+main form input[type="submit"] {
+  padding: 10px;
+  border: 0px;
+  background-color: rgb(154, 184, 207);
+  font-weight: bold;
+  cursor: pointer;
+  color: darkslategrey;
+  margin-left: 0px;
+}
